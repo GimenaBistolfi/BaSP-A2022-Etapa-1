@@ -191,13 +191,9 @@ section {
 .name-email label {
   text-align: center;
 }
-
 form div {
-  
   padding-top: 20px;
 }
-
-
 form label{
   display: block;
 }
@@ -210,8 +206,22 @@ form{
   width: 45%; 
 }
 .first-p {
+  margin-top: 100px;
+  margin-left: 50px;
   display: inline-block;
   width: 40%
+}
+.paragraphs {
+  margin-top: 100px;
+}
+
+.title-o {
+  font-size: 40px;
+  margin-right: 500px;
+}
+.subtitle {
+  font-size: 25px;
+  margin-right: 500px;
 }
 
 .products {
@@ -228,22 +238,21 @@ form{
 .list-products {
   background-color: #d9d9d9;
   padding: 20px;
+  width: 272px;
+  height: 355px;
 }
 .products h2{
-  font-size: 50px;
-  background-color: #d9d9d9;
-  padding: 15px;
-}
-
-footer{
-  background-color: #d9d9d9;
-  padding: 30px;
   text-align: center;
+  font-size: 40px;
+  background-color: #d9d9d9;
+  width: 200px;
+  height: 60px;
+}
+.p-01 {
+  padding-top: 200px;
 }
 
-footer div{
-  
-}
+
 
 .business {
   margin-top: 400px;
@@ -259,14 +268,20 @@ footer div{
 .list-business {
   background-color: #d9d9d9;
   padding: 20px;
+  width: 272px;
+  height: 355px;
 }
-
 .business h2{
-  font-size: 50px;
+  text-align: center;
+  font-size: 40px;
   background-color: #d9d9d9;
   padding: 15px;
+  width: 200px;
+  height: 70px;
 }
-
+.p-02 {
+  padding-top: 200px;
+}
 .support {
   margin-top: 400px;
 }
@@ -281,11 +296,23 @@ footer div{
 .list-support {
   background-color: #d9d9d9;
   padding: 20px;
+  width: 272px;
+  height: 355px;
 }
 
 .support h2{
-  font-size: 50px;
+  text-align: center;
+  font-size: 40px;
   background-color: #d9d9d9;
   padding: 15px;
+  width: 200px;
+  height: 70px;
 }
-
+.p-03{
+  padding-top: 200px;
+}
+footer{
+  background-color: #d9d9d9;
+  padding: 30px;
+  text-align: center;
+}
