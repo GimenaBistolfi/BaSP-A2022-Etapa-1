@@ -183,3 +183,109 @@ section {
 .image-container {
   width: 2000px
 }
+
+.info-h2 {
+  width: 49%;
+}
+
+.name-email label {
+  text-align: center;
+}
+
+form div {
+  
+  padding-top: 20px;
+}
+
+
+form label{
+  display: block;
+}
+form{
+  margin-left: 200px;
+}
+
+.our-history div{
+  float: right;
+  width: 45%; 
+}
+.first-p {
+  display: inline-block;
+  width: 40%
+}
+
+.products {
+  margin-top: 400px;
+}
+.products div {
+  display: inline-block;
+  width: 40%;
+}
+.title-p {
+  padding-left: 20px;
+}
+
+.list-products {
+  background-color: #d9d9d9;
+  padding: 20px;
+}
+.products h2{
+  font-size: 50px;
+  background-color: #d9d9d9;
+  padding: 15px;
+}
+
+footer{
+  background-color: #d9d9d9;
+  padding: 30px;
+  text-align: center;
+}
+
+footer div{
+  
+}
+
+.business {
+  margin-top: 400px;
+}
+
+.business div {
+  display: inline-block;
+  width: 40%;
+}
+.title-b {
+  padding-left: 20px;
+}
+.list-business {
+  background-color: #d9d9d9;
+  padding: 20px;
+}
+
+.business h2{
+  font-size: 50px;
+  background-color: #d9d9d9;
+  padding: 15px;
+}
+
+.support {
+  margin-top: 400px;
+}
+
+.support div {
+  display: inline-block;
+  width: 40%;
+}
+.title-s {
+  padding-left: 20px;
+}
+.list-support {
+  background-color: #d9d9d9;
+  padding: 20px;
+}
+
+.support h2{
+  font-size: 50px;
+  background-color: #d9d9d9;
+  padding: 15px;
+}
+

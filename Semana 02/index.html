@@ -17,7 +17,7 @@
 <body>
 
 
-  
+
   <header>
     <span class="header-container"></span>
     <div class="header-menu">
@@ -97,6 +97,7 @@
   </aside>
   <main>
     <section>
+
       <div class="home-info width-49">
         <h1 class="home-h1">Trackgenix</h1>
         <h2>
@@ -187,7 +188,7 @@
         <div class="width-49">
         <article>
           <div class="record-of-hours">
-            <div>
+            <div class="clock">
               <img src="./assets/img/clock.png" alt="Icon clock"/>
             </div>
           <div>
@@ -269,68 +270,75 @@
 
 
 
-      <!--<section>
-        <h2>Information</h2>
-        <form>
+      <section class="information">
+        <h2 class="info-h2">Information</h2>
+        <form action="">
           <div>
-            <label>Name
-              <input type="text" name="name" placeholder="text your name" required>
-            </label>
-            <label>Email
-              <input type="text" placeholder="text your email" required>
-            </label>
+            <label for="name">Name</label>
+            <input class="long-bar" type="text" placeholder="text your name" />
           </div>
           <div>
-            <p>Contact area</p>
-            <label>
-              <input type="checkbox" name="Resources">Human Resources
-            </label>
-            <label>
-              <input type="checkbox" name="Systems">Systems
-            </label>
-            <label>
-              <input type="checkbox" name="Commercialization">Commercialization
-            </label>
+            <label for="email">Email</label>
+            <input class="long-bar" type="email" placeholder="text your email" />
+          </div>
+          <label for="Contact-area">Contact area</label>
+          <div class="contact-area">
+            <div>
+              <input type="radio" name="information" />Human Resources
             </div>
             <div>
-              <p>Message</p>
-              <input type="text" placeholder="text your message" required>
-              </div>
-              <div>
-              <input type="Submit" name="Send" value="Send">
-              </div>
+              <input type="radio" name="information" />Systems
+            </div>
+            <div>
+              <input type="radio" name="information" />Commercialization
+            </div>
+          </div>
+          <div>
+            <label>Messages</label>
+            <textarea name="" id="" cols="30" rows="5" placeholder="Text your message"></textarea>
+          </div>
+          <input class="buttom" type="submit" value="Send" />
         </form>
     </section>
 
-    <section>
-        <h2>Our History</h2>
-        <article>
+    <section class="our-history">
+      <article>  
+        
+      <h2>Our History</h2>
+        
           <h3>GigaTech Software Solutions SA</h3>
-          <p>
+          
+
+          
+          <p class="first-p">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nam totam magnam aperiam quia sit
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, ipsum placeat officiis sequi quae
           expedita odio esse laudantium fugiat numquam aliquam quisquam laboriosam, eveniet nostrum
           voluptatum! Corrupti, laboriosam. Dolorum, illo!
           </p>
-          <div>
+         
+          <div class="paragraphs">
             <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nam totam magnam aperiam quia sit
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo consequuntur odit, consectetur,
             quos nesciunt temporibus fugiat dignissimos deleniti vero delectus in debitis? Sit, quo quos maiores
             et tempora reprehenderit quibusdam.
             </p>
+         
             <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nam totam magnam aperiam quia sit
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo consequuntur odit, consectetur,
             quos nesciunt temporibus fugiat dignissimos deleniti vero delectus in debitis? Sit, quo quos maiores
             et tempora reprehenderit quibusdam.
             </p>
+          
             <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nam totam magnam aperiam quia sit
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo consequuntur odit, consectetur,
             quos nesciunt temporibus fugiat dignissimos deleniti vero delectus in debitis? Sit, quo quos maiores
             et tempora reprehenderit quibusdam.
             </p>
+        
             <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nam totam magnam aperiam quia sit
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo consequuntur odit, consectetur,
@@ -338,10 +346,19 @@
             et tempora reprehenderit quibusdam.
             </p>
           </div>
+          
+          
+        
+      
         </article>
       </section>
+
+
+
+
       <section>
-      <article>
+      <article class="products">
+        <div class="title-p">
         <h2>Products</h2>
         <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quaerat quae cupiditate perspiciatis.
@@ -349,10 +366,12 @@
         quas repellendus perspiciatis optio ad, aliquam vero assumenda cumque, nemo recusandae saepe. Blanditiis,
         maiores minus.
         </p>
+      </div>
+      <div class="list-products">
         <ol>
           <li>
             <i class="fa-solid fa-share"></i>
-            Funtionalities
+            Functionalities
           </li>
           <li>
             <i class="fa-solid fa-share"></i>
@@ -367,10 +386,14 @@
             Additional features
           </li>
         </ol>
+      </div>
       </article>
     </section>
     <section>
-    <article>
+
+
+    <article class="business">
+      <div class="title-b">
       <h2>Business</h2>
       <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquam repellendus cum temporibus,
@@ -378,6 +401,8 @@
       labore, iusto consequuntur voluptatibus rem praesentium, quibusdam vel libero illo consequatur iste ex
       quaerat corporis eos dolore!
       </p>
+    </div>
+    <div class="list-business">
         <ol>
           <li>
             <i class="fa-solid fa-share"></i>
@@ -396,10 +421,15 @@
             Blog
           </li>
         </ol>
+      </div>
       </article>
     </section>
+
     <section>
-    <article>
+
+
+    <article class="support">
+      <div class="title-s">
         <h2>Support</h2>
         <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem placeat accusamus ullam distinct
@@ -407,6 +437,8 @@
         id inventore vel delectus mollitia voluptatibus itaque quibusdam nobis amet aperiam, aut sed ea ducimus
         quo!
         </p>
+      </div>
+      <div class="list-support">
         <ol>
           <li>
             <i class="fa-solid fa-share"></i>
@@ -425,21 +457,22 @@
             Contact
           </li>
         </ol>
+      </div>
       </article>
-    </section> -->
-  </main> -->
-  <!-- <footer>
-        <div>
-          <img src="./assets/img/linkedin.svg" alt="linkedin"/>
-          <img src="./assets/img/twitter.svg" alt="twitter"/>
-          <img src="./assets/img/facebook.svg" alt="facebook"/>
-          <img src="./assets/img/instagram.svg" alt="instagram"/>
-          <img src="./assets/img/github.svg" alt="github"/>
+    </section> 
+  </main> 
+  <footer>
+        <div class="icons">
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-github"></i>
         </div>
         <p>
           Copyright ℗ 2022 Radium Rocket. All rights reserved.
         </p>
-    </footer> -->
+    </footer>
 </body>
 
 </html>
