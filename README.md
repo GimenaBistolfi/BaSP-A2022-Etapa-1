@@ -15,6 +15,8 @@ Week 00: Create all screen flows in Figma.
 
 Week 01: Create the basic HTML structure.
 
+Week 02: Create the CSS style with the HTML, about the template of Landing of Figma
+
 
 
 

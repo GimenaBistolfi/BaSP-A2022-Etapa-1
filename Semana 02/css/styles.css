@@ -129,22 +129,26 @@ section div,
   display: inline-block;
 }
 
+.about-trackgenix h2{
+  font-size: 30px;
+  padding-bottom: 50px;
+}
 .about-trackgenix img,
 .functions img {
   width: 100px;
   float: left;
 }
+
+.functions h2 {
+font-size: 30px;
+}
+
 .about-trackgenix p,
 .functions p {
  margin-left: 110px;
  margin-top: 20px;
  margin-bottom: 20px;
 }
-
-.title-r {
-  font-size: 25px;
-}
-
 .home-info {
   vertical-align: top;
 }
@@ -271,7 +275,14 @@ form{
   padding: 20px;
   width: 272px;
   height: 355px;
+  float: right;
+  margin-top: 120px;
 }
+.list-products li{
+  padding: 30px;
+}
+
+
 .products h2{
   text-align: center;
   font-size: 40px;
@@ -280,7 +291,7 @@ form{
   height: 60px;
 }
 .p-01 {
-  padding-top: 200px;
+  padding-top: 80px;
 }
 
 
@@ -301,6 +312,11 @@ form{
   padding: 20px;
   width: 272px;
   height: 355px;
+  float: right;
+  margin-top: 120px;
+}
+.list-business li{
+  padding: 30px;
 }
 .business h2{
   text-align: center;
@@ -311,7 +327,7 @@ form{
   height: 70px;
 }
 .p-02 {
-  padding-top: 200px;
+  padding-top: 80px;
 }
 .support {
   margin-top: 400px;
@@ -329,8 +345,13 @@ form{
   padding: 20px;
   width: 272px;
   height: 355px;
+  float: right;
+  margin-top: 120px;
 }
 
+.list-support li{
+  padding: 30px;
+}
 .support h2{
   text-align: center;
   font-size: 40px;
@@ -340,7 +361,7 @@ form{
   height: 70px;
 }
 .p-03{
-  padding-top: 200px;
+  padding-top: 70px;
 }
 footer{
   background-color: #d9d9d9;
