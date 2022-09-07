@@ -105,6 +105,12 @@ aside div {
 .menu-sidebar div {
   padding-top: 30px;
 }
+.margin{
+  margin-top: 100px;
+}
+.border-bottom{
+  border-bottom: #373867 2px solid;
+}
 
 main {
   margin-top: 70px;
@@ -126,6 +132,17 @@ section div,
 .about-trackgenix img,
 .functions img {
   width: 100px;
+  float: left;
+}
+.about-trackgenix p,
+.functions p {
+ margin-left: 110px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.title-r {
+  font-size: 25px;
 }
 
 .home-info {
@@ -188,19 +205,33 @@ section {
   width: 49%;
 }
 
+.long-bar {
+  width: 100%;
+}
+textarea {
+  width: 100%;
+}
+.contact-area {
+  width: max-content;
+  margin: auto;
+}
 .name-email label {
   text-align: center;
 }
 form div {
   padding-top: 20px;
+  display: block;
 }
 form label{
   display: block;
 }
 form{
-  margin-left: 200px;
+ margin: auto;
+  width: 260px;
 }
-
+.send {
+  float: right;
+}
 .our-history div{
   float: right;
   width: 45%; 
