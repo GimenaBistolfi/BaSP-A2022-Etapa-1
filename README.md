@@ -20,7 +20,7 @@ Week 02: Create the CSS style with the HTML, about the template of Landing of Fi
 Week 03: Create the responsive design of the template of Landing of Figma using Flexbox.
 
 
-*Author: Gimena Bistolfi
+Author: Gimena Bistolfi
 
 
 
