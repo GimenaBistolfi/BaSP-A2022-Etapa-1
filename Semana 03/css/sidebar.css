@@ -9,25 +9,22 @@ aside {
 
 aside div {
   margin: 20px;
- 
 }
 
 .menu-sidebar {
   padding-bottom: 20px;
- 
 }
 
 .menu-sidebar div {
   padding-top: 30px;
-
 }
+
 .margin{
   margin-top: 100px;
- 
 }
+
 .border-bottom{
   border-bottom: #373867 2px solid;
- 
 }
 
 @media screen and (min-width: 1024px){
@@ -57,17 +54,4 @@ aside div {
   .border-bottom{
     border-bottom: #373867 2px solid;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
