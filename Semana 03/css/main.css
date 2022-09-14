@@ -283,20 +283,22 @@ form{
 }
  .our-history div{
   display: flex;
-  float: right; 
+  
 } 
 .first-p {
   margin-top: 20px;
   margin-left: 30px;
   width: 250px;
-  font-size: 10px;
+  font-size: 15px;
 }
-.paragraphs p {
-  padding-left: 40px;
-  font-size: 13px;
-  margin-top: 30px;
-  width: 250px;
-  margin-right: 50px;
+.paragraphs{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  line-height: 20px;
+}
+.paragraphs p{
+  margin-top: 10px;
 }
 
 .title-o h2{
@@ -306,6 +308,7 @@ form{
   width: 500px;
 }
 .subtitle {
+  display: flex;
   font-size: 15px;
   margin-top: 10px;
   font-weight: bold;
@@ -380,6 +383,10 @@ padding-top: 200px;
 
 .business {
   display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -400,7 +407,7 @@ padding-top: 200px;
   margin-top: 50px;
 }
 .list-business ol{
-  margin-top: 200px;
+  margin-top: -100px;
   margin-right: 200px;
 }
 .business h2{
@@ -435,7 +442,7 @@ padding-top: 200px;
 
 .title-s {
   display: flex;
-  padding-left: 20px;
+  padding-left: -500px;
   font-weight: bold;
   margin-top: 400px;
 }
@@ -456,18 +463,18 @@ padding-top: 200px;
 }
 .support h2{
   display: flex;
-  text-align: center;
-  font-size: 40px;
+  flex-direction: row;
+ font-size: 40px;
 
   padding: 15px;
   width: 200px;
-  height: 70px;
+  height: 70px; 
 }
 .p-03{
   display: flex;
   padding-top: 70px;
-  font-size: 20px;
-  width: 300px;
+  font-size: 15px;
+  width: 400px;
 }
 
 @media screen and (min-width: 1024px) {
