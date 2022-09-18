@@ -18,7 +18,9 @@ Week 01: Create the basic HTML structure.
 Week 02: Create the CSS style with the HTML, about the template of Landing of Figma
 
 Week 03: Create the responsive design of the template of Landing of Figma using Flexbox.
+LINK: https://gimenabistolfi.github.io/BaSP-A2022-Etapa-1/Semana%2003/index.html
 
+Week 04: Solve the JavaScript exercises.
 
 Author: Gimena Bistolfi
 
