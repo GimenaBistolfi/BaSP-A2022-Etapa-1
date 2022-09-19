@@ -3,30 +3,29 @@ console.log('--EXERCISE 1: VARIABLES AND OPERATORS');
 
 console.log('Exercise 1.a:');
 
-var edad = 20;
-var peso = 60;
+var age = 20;
+var weight = 60;
 
-var sumaDeLosNumeros = edad + peso;
-console.log(sumaDeLosNumeros);
+var sumOfNumbers = age + weight;
+console.log(sumOfNumbers);
 
 
 //b.Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable.
 
 console.log('Exercise 1.b:');
 
-var uno = "Bienvenida";
-var dos = "Gimena";
+var greeting = 'welcome';
+var theName = 'Gimena';
 
-var bienvenidaGimena = (uno + " " + dos);
-console.log(bienvenidaGimena);
+var welcomeGimena = (greeting + " " + theName);
+console.log(welcomeGimena);
 
 
 //c.Crear dos variables de tipo String y sumar el largo de cada variable (cantidad de letras del string) guardando el resultado de la suma en una 3er variable (utilizar length).
 
 console.log('Exercise 1.c:');
 
-var one = "Me llamo"
-var two = "Gimena Bistolfi"
-
-console.log(one.length)
-console.log(two.length)
+var one = 'Me llamo';
+var two = 'Gimena Bistolfi';
+var result = one.length + two.length;
+console.log(result);
