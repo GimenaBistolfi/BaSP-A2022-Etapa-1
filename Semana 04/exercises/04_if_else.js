@@ -7,24 +7,8 @@ console.log('--EXERCISE 4: _IF_ELSE');
 
 console.log('Exercise 4.a:');
 
-var numberRandom = (Math.random());
-console.log(Math.random);
-numberRandom.alert('Lower than 0.5');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(Math.random());
+alert('Greater than 0,5');
 
 //b. Crear una variable “Age” que contenga un número entero entre 0 y 100 y muestre los siguientes mensajes 
 //de alerta:
@@ -38,6 +22,24 @@ numberRandom.alert('Lower than 0.5');
 
 console.log('Exercise 4.b:');
 
+var age = 1;
 
+if (age < 2){
+    alert("Bebe");
+}else if  (age <= 12){
+    alert('Niño');
+}else if (age <= 19){
+    alert('Adolescente');
+}else if (age <= 30){
+    alert('Joven');
+}else if (age <= 60){
+    alert('Adulto');
+}else if (age <= 75){
+    alert('Adulto mayor');
+}else if (age > 75){
+    alert('Anciano');
+}
+
+    
 
 
