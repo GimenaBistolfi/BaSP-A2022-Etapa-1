@@ -21,6 +21,7 @@ Week 03: Create the responsive design of the template of Landing of Figma using 
 LINK: https://gimenabistolfi.github.io/BaSP-A2022-Etapa-1/Semana%2003/index.html
 
 Week 04: Solve the JavaScript exercises.
+LINK: https://gimenabistolfi.github.io/BaSP-A2022-Etapa-1/Semana%2004/index.html 
 
 Author: Gimena Bistolfi
 
