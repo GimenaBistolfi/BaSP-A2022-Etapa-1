@@ -314,6 +314,7 @@ form{
 
 .paragraphs p{
   margin-top: 10px;
+  margin-left: 40px;
 }
 
 .title-o h2{
@@ -321,6 +322,7 @@ form{
   padding-top: 120px;
   font-weight: bold;
   width: 500px;
+  margin-left: 30px;
 }
 
 .subtitle {
@@ -335,6 +337,7 @@ form{
 font-size: 30px;
 font-weight: bold;
 padding-top: 200px;
+padding-left: 40px;
 }
 
 .three-paragraphs {
@@ -342,35 +345,26 @@ padding-top: 200px;
   margin-top: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
 .products {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
-.products div {
-  display: flex;
-}
+
 .title-p {
   display: flex;
-  padding-left: 20px;
+  padding-left: 10px;
 }
+
 
 .list-products {
   display: flex;
   padding: 20px;
   width: 272px;
   height: 355px;
-  float: right;
   margin-top: 100px;
+  justify-content: flex-start;
+  padding-right: 1200px;
 }
 .list-products li{
   display: flex;
@@ -389,7 +383,7 @@ padding-top: 200px;
 }
 .p-01 {
   display: flex;
-  margin-left: 50px;
+  margin-left: 40px;
   padding-top: 100px;
 }
 
@@ -399,8 +393,8 @@ padding-top: 200px;
   display: flex;
   flex-direction: column;
   margin: auto;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 
@@ -442,8 +436,7 @@ padding-top: 200px;
   display: flex;
   flex-direction: column;
   margin: auto;
-  justify-content: center;
-  align-items: center;
+
   
 }
 
@@ -456,9 +449,9 @@ padding-top: 200px;
 
 .title-s {
   display: flex;
-  padding-left: -500px;
+  padding-left: 0px;
   font-weight: bold;
-  margin-top: 400px;
+  margin-top: 40px;
 }
 
 .list-support {
@@ -488,10 +481,14 @@ padding-top: 200px;
   display: flex;
   padding-top: 70px;
   font-size: 15px;
-  width: 400px;
+  margin-left: 40px;
 }
 
 @media screen and (min-width: 1024px) {
+  main {
+    margin-left: 300px;
+  }
+  
   .home-info {
     flex-direction: row-reverse;
   }
@@ -580,17 +577,4 @@ padding-top: 200px;
   .icon-04 img {
     display: flex;
   }    
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
