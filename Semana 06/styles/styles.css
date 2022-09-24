@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  color: #373867;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #f0f0f0;
+  height: max-content;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+

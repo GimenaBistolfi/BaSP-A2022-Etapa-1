@@ -88,15 +88,15 @@ console.log(theNumbers6d (10,10));
 
 console.log('Exercise 6.e:');
 
-function becomeInteger(_val){
+function transform(_val){
     if (!Number.isInteger(_val)){
       return parseInt(_val);
     }
   }
   
   function addition3(_num1, _num2){  
-    if (validateInteger(_num1) && validateInteger(_num2)) {
-      return alert(becomeInteger(_num1) + becomeInteger(_num2));
+    if (transform(_num1) && transform(_num2)) {
+      return alert(transform(_num1) + transform(_num2));
     } else {
       return alert('values must be integer' + Math.round(_num1) + ' ' + Math.round(_num2));
     }

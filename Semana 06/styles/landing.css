@@ -1,0 +1,580 @@
+main {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-left: 0;
+}
+
+.home-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.home-content {
+  padding: 20px;
+}
+
+.home-h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.second-lorem {
+  margin-top: 50px;
+}
+
+.button{
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.img-one {
+  margin: 20px;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.about-flexbox {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+.functions-flexbox {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+.about-trackgenix h2{
+font-size: 30px;
+padding-bottom: 50px;
+font-weight: bold;
+}
+
+.about-trackgenix p {
+margin-top: 30px;
+}
+
+.about-trackgenix article {
+padding: 20px;
+}
+
+.functions article {
+padding: 20px;
+}
+
+.productivity h3{
+font-size: 20px;
+padding-top: 30px;
+}
+
+.productivity p {
+font-size: 15px;
+}
+
+.leadership h3{
+padding-top: 30px;
+font-size: 20px;
+}
+
+.leadership p {
+font-size: 15px;
+}
+
+.work h3{
+padding-top: 30px;
+font-size: 20px;
+}
+
+.work p {
+font-size: 15px;
+}
+
+.decision h3{
+padding-top: 30px;
+font-size: 20px;
+}
+
+.decision p {
+font-size: 15px;
+}
+
+.icon-01 img {
+  display: none;
+  width: 100px;
+}
+
+.icon-02 img {
+  display: none;
+  width: 100px;
+}
+
+.icon-03 img {
+  display: none;
+  width: 100px;
+}
+
+.icon-04 img {
+  display: none;
+  width: 100px;
+}
+
+.functions h2 {
+  font-size: 30px;
+  font-weight: bold;
+  }
+
+.record-of-hours h3{
+  font-size: 20px;
+  padding-top: 30px;
+ }
+
+.record-of-hours p {
+
+  font-size: 15px;
+}
+
+.reports h3{
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.reports p{
+  font-size: 15px;
+}
+
+.resource h3{
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.resource p {
+  font-size: 15px;
+}
+
+.multiple-roles h3{
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.multiple-roles p {
+  font-size: 15px;
+}
+
+.record-of-hours img {
+display: none;
+width: 100px;
+}
+
+.reports img {
+display: none;
+width: 100px;
+}
+
+.resource img {
+display: none;
+width: 100px;
+}
+
+.multiple-roles img {
+display: none;
+width: 100px;
+}
+
+.info-h2 {
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+ margin-left: 20px;
+ padding-top: 50px;
+}
+
+.name label {
+  display: flex;
+  font-weight: bold;
+  font-size: 15px;
+  justify-content: center;
+  width: 50px;
+  flex-direction: column;
+}
+
+.long-bar {
+  display: flex;
+  width: 200px;
+  margin-left: 50px;
+  flex-direction: column;
+}
+
+.email label {
+  display: flex;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  width: 145px;
+  flex-direction: column;
+}
+
+textarea {
+  display: flex;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.human-resources {
+display: flex;
+width: 300px;
+font-weight: bold;
+font-size: 15px;
+padding-left: 20px;
+}
+
+.systems {
+display: flex;
+width: 300px;
+font-weight: bold;
+font-size: 15px;
+padding-left: 20px;
+}
+
+.commercialization {
+display: flex;
+width: 300px;
+font-weight: bold;
+font-size: 15px;
+padding-left: 20px;
+}
+
+.messages label{
+display: flex;
+font-weight: bold;
+padding-left: 50px;
+}
+
+.title-contact-area label {
+  display: flex;
+  font-weight: bold;
+  padding-left: 50px;
+  width: 200px;
+}
+
+.name-email label {
+  display: flex;
+  text-align: center;
+}
+
+.information-form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  display: flex;
+  padding-top: 20px;
+  display: block;
+}
+
+form label{
+  display: flex;
+  display: block;
+}
+
+form{
+  display: flex;
+ margin: auto;
+  width: 260px;
+}
+
+.send {
+  display: flex;
+  float: right;
+}
+
+ .our-history div{
+  display: flex;
+  
+} 
+
+.first-p {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 250px;
+  font-size: 15px;
+}
+
+.paragraphs{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  line-height: 20px;
+}
+
+.paragraphs p{
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.title-o h2{
+  font-size: 30px;
+  padding-top: 120px;
+  font-weight: bold;
+  width: 500px;
+  margin-left: 30px;
+}
+
+.subtitle {
+  display: flex;
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.products-services{
+font-size: 30px;
+font-weight: bold;
+padding-top: 200px;
+padding-left: 40px;
+}
+
+.three-paragraphs {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title-p {
+  display: flex;
+  padding-left: 10px;
+}
+
+
+.list-products {
+  display: flex;
+  padding: 20px;
+  width: 272px;
+  height: 355px;
+  margin-top: 100px;
+  justify-content: flex-start;
+  padding-right: 1200px;
+}
+.list-products li{
+  display: flex;
+ padding-top: 30px;
+  padding-left: 150px;
+}
+
+
+.products h2{
+  font-weight: bold;
+  margin-top: 200px;
+  display: flex;
+  font-size: 40px;
+  width: 200px;
+  height: 0px;
+}
+.p-01 {
+  display: flex;
+  margin-left: 40px;
+  padding-top: 100px;
+}
+
+
+
+.business {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+
+
+.list-business{
+  display: flex;
+  padding: 20px;
+  width: 272px;
+  height: 355px;
+  float: right;
+  margin-top: 120px;
+}
+
+
+.list-business li{
+  display: flex;
+  margin-top: 50px;
+}
+.list-business ol{
+  margin-top: -100px;
+  margin-right: 200px;
+}
+.business h2{
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  font-size: 40px;
+  padding: 15px;
+  width: 200px;
+  height: 70px;
+}
+.p-02 {
+  display: flex;
+  padding-top: 40px;
+  margin-left: 50px;
+}
+.support {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+  
+}
+
+/* .support div {
+  display: flex;
+  display: inline-block;
+  width: 40%;
+} */
+
+
+.title-s {
+  display: flex;
+  padding-left: 0px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.list-support {
+  display: flex;
+  padding-left: 20px;
+  width: 272px;
+  height: 355px;
+  float: right;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.list-support li{
+  display: flex;
+  padding: 30px;
+}
+.support h2{
+  display: flex;
+  flex-direction: row;
+ font-size: 40px;
+
+  padding: 15px;
+  width: 200px;
+  height: 70px; 
+}
+.p-03{
+  display: flex;
+  padding-top: 70px;
+  font-size: 15px;
+  margin-left: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    margin-left: 300px;
+  }
+  
+  .home-info {
+    flex-direction: row-reverse;
+  }
+  .img-one {
+    width: 50%;
+  }
+  .home-content {
+    width: 50%;
+  }
+  .about-flexbox {
+    flex-direction: row;
+  }
+  .about-trackgenix article {
+    width: 50%;
+  }
+  .functions-flexbox {
+    flex-direction: row;
+  }
+  .functions article {
+    width: 50%;
+  }
+  .record-of-hours img {
+    display: flex;
+  }
+  
+  .reports img {
+    display: flex;
+  }
+  
+  .resource img {
+    display: flex;
+  }
+  
+  .multiple-roles img {
+    display: flex;
+  }
+  .icon-01 img {
+    display: flex;
+  }
+
+  .icon-02 img {
+    display: flex;
+  }
+
+  .icon-03 img {
+    display: flex;
+  }
+
+  .icon-04 img {
+    display: flex;
+  }    
+
+  
+}
+
+@media screen and (min-width: 768px) {
+
+
+  .record-of-hours img {
+    display: flex;
+  }
+  
+  .reports img {
+    display: flex;
+  }
+  
+  .resource img {
+    display: flex;
+  }
+  
+  .multiple-roles img {
+    display: flex;
+  }
+  .icon-01 img {
+    display: flex;
+  }
+
+  .icon-02 img {
+    display: flex;
+  }
+
+  .icon-03 img {
+    display: flex;
+  }
+
+  .icon-04 img {
+    display: flex;
+  }    
+}
