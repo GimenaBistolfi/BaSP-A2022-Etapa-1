@@ -1,0 +1,121 @@
+aside {
+    display: none;
+}
+
+body {
+    background: #373867;
+    background: linear-gradient( #373867 0%, #5254B2 100%)
+}
+
+
+.text-login h1{
+    font-size: 30px;
+    padding-top: 200px;
+    color: white;
+}
+
+.text-login h2{
+    font-size: 20px;
+    color: white;
+}
+
+.text-login p{
+    font-size: 10px;
+    width: 200px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    top: 0px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+}
+ 
+.sign {
+    display: flex;
+    color: #5254B2;
+    font-size: 15px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+.h2-email {
+font-weight: bold;
+font-size: 15px;
+text-align: center;
+}
+
+.input-email {
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+}
+.password { 
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.input-password{
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.remember-me {
+    width: 100px;
+    height: 50px;
+    margin-left: 150px;
+    padding-bottom: 50px;
+}
+
+.forgot-password {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.buttom-sign-in {
+    font-weight: bold;
+    margin-left: 170px;
+}
+
+.account { 
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.register { 
+    width: 50px;
+    margin-left: 170px;
+}
+
+.container-login {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    
+.container-login {
+    flex-direction: row;
+}
+
+.text-login {
+    display: flex;
+    flex-direction: column;
+}
+}
+
+
+
+

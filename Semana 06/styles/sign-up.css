@@ -1,0 +1,168 @@
+aside {
+    display: none;
+}
+
+body {
+    background: #373867;
+    background: linear-gradient( #373867 0%, #5254B2 100%)
+}
+
+
+.text-sign-up h1{
+    font-size: 30px;
+    padding-top: 200px;
+    color: white;
+}
+
+.text-sign-up h2{
+    font-size: 20px;
+    color: white;
+}
+
+.text-sign-up p {
+    font-size: 10px;
+    width: 200px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    top: 0px;
+    background-color: white;
+    width: 500px;
+    height: 800px;
+    margin-left: 400px;
+}
+
+.sign-in-sign-up {
+    display: flex;
+    color: #5254B2;
+    font-size: 15px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.container-sign-up {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-name {
+    font-weight: bold;
+}
+
+.first-button {
+    width: 50px;
+    margin-left: 150px;
+}
+
+.first-name, .last-name, .dni, .date, .phone, .locality, .address, .postal, .email, .password, .repeat {
+display: flex;
+align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.last-name {
+    font-weight: bold;
+}
+.last-button {
+    margin-left: 150px;
+}
+.dni { 
+    font-weight: bold;
+}
+.dni-button {
+    margin-left: 150px;
+}
+
+.date {
+    font-weight: bold;
+}
+.date-button{
+    margin-left: 150px;
+}
+.phone{
+    font-weight: bold;
+}
+.phone-button{
+    margin-left: 150px;
+}
+.locality {
+    font-weight: bold;
+}
+.locality-button {
+    margin-left: 150px;
+}
+.address {
+    font-weight: bold;
+}
+.address-button {
+    margin-left: 150px;
+}
+.postal {
+    font-weight: bold;
+}
+.postal-button{
+    margin-left: 150px;
+}
+.email {
+    font-weight: bold;
+}
+.email-button {
+    margin-left: 150px;
+}
+
+.password {
+    font-weight: bold;
+}
+.password-button {
+    margin-left: 150px;
+}
+
+.repeat {
+    font-weight: bold;
+}
+.repeat-button {
+    margin-left: 150px;
+}
+
+.button-register {
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+    
+    .container-login {
+        flex-direction: row;
+    }
+    
+    .text-login {
+        display: flex;
+        flex-direction: column;
+    }
+    }
+    

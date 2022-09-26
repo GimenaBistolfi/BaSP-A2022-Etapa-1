@@ -481,7 +481,7 @@ padding-left: 40px;
   display: flex;
   padding-top: 70px;
   font-size: 15px;
-  margin-left: 40px;
+  margin-left: 40px ;
 }
 
 @media screen and (min-width: 1024px) {
